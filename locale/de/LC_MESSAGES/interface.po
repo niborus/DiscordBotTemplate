@@ -1,0 +1,424 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2020-12-26 23:49+CET\n"
+"PO-Revision-Date: 2020-12-06 19:43+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Generator: Poedit 2.4.2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: commands/about.py:15
+msgid ""
+"Do you need help, want to make a suggestion or report a bug?\n"
+"[Join our Support-Server.](https://discord.gg/QFhEhpG)\n"
+"\n"
+"Do you need to contact to developer per E-Mail?\n"
+"Write me a private message with `s.mail`."
+msgstr ""
+"Brauchst du Hilfe, willst einen Vorschlag machen oder einen Fehler melden?\n"
+"[Tritt unserem Supportserver bei.](https://discord.gg/QFhEhpG)\n"
+"\n"
+"Möchtest du den Entwickler eine E-Mail schreiben?\n"
+"Schreibe mir eine private Nachricht mit `s.mail`."
+
+#: commands/about.py:18
+msgid "Contact:"
+msgstr "Kontakt:"
+
+#: commands/about.py:29
+msgid "Contact the developer."
+msgstr "Kontaktiere die Entwickler."
+
+#: commands/about.py:30
+msgid ""
+"If you need help with the bot or want to make a suggestion, please make this "
+"on [our Support-Server](https://discord.gg/QFhEhpG).\n"
+"Use this E-Mail Address **only** for Bug-Reports and vulnerable messages."
+msgstr ""
+"Falls du Hilfe mit dem Bot brauchst oder einen Vorschlag einreichen willst, "
+"nutze [unseren Supportserver](https://discord.gg/QFhEhpG).\n"
+"Die E-Mail Adresse ist **nur** für Fehlermeldungen und vertrauliche "
+"Nachrichten."
+
+#: commands/about.py:35
+msgid "E-Mail Address:"
+msgstr "E-Mail Adresse:"
+
+#: commands/about.py:35
+msgid "niborus@yunamio.de"
+msgstr "niborus@yunamio.de"
+
+#: commands/about.py:36
+msgid ""
+"[0xBA853A5A53E8EDD1](https://keys.mailvelope.com/pks/lookup?"
+"op=get&search=niborus@yunamio.de)\n"
+"Fingerprint:\n"
+"`1A7E DDE1 23BD 71FC C087 613D BA85 3A5A 53E8 EDD1`"
+msgstr ""
+"[0xBA853A5A53E8EDD1](https://keys.mailvelope.com/pks/lookup?"
+"op=get&search=niborus@yunamio.de)\n"
+"Fingerabdruck:\n"
+"`1A7E DDE1 23BD 71FC C087 613D BA85 3A5A 53E8 EDD1`"
+
+#: commands/about.py:38
+msgid "Encryption:"
+msgstr "Verschlüsselung:"
+
+#: commands/about.py:39
+msgid ""
+"If you are writing your E-Mails in a browser like Chrome, Firefox or Edge, "
+"you can use the open-source plugin extension [Mailvelope](https://www."
+"mailvelope.com/en).\n"
+"Look up the website from [Jugendhackt](https://howtopgp.jugendhackt.de/#/) "
+"to get more information and good software for other devices."
+msgstr ""
+"Falls du deine E-Mails in einem Browser (z.B. Chrome, Firefox oder Edge) "
+"schreibst, nutze das Open-Source-Plugin [Mailvelope](https://www.mailvelope."
+"com/de).\n"
+"Auf der Webseite von [Jugendhackt](https://howtopgp.jugendhackt.de/#/) "
+"findest du weitere Tipps rund um Verschlüsselung sowie Software für andere "
+"Geräte."
+
+#: commands/about.py:43
+msgid "How to encrypt:"
+msgstr "Wie verschlüssel ich:"
+
+#: commands/about.py:52
+msgid "Upcoming Changes."
+msgstr "Bevorstehende Änderungen."
+
+#: commands/about.py:54
+msgid ""
+"The FollowChannel Module was an alternative for Discords AnnouncementChannel "
+"for those developers, who couldn't afford a Game License. When Discord "
+"enabled the [Community-Servers](https://support.discord.com/hc/de/"
+"articles/360047132851-Enabling-Your-Community-Server) for every server, they "
+"also enabled the AnnouncementChannel for every Server.\n"
+"Therefore, the FollowChannel Module from Supporter is no longer useful and "
+"will be removed from the Bot. There is a transition period, so you can set "
+"up a AnnouncementChannel and inform everyone about the changes.\n"
+"The FollowChannel Module, which include the commands `follow` and `publish` "
+"will be deactivated at **November 7, 2020**. This is the same date, when "
+"Discord will drop the support for the old domain *discordapp.com*."
+msgstr ""
+"Das Kanal-Folgen Modul war eine alternative zu Discords Ankündigungskanälen "
+"für Entwickler\\*innen, die sich keine *Game Lizens* leisten konnten oder "
+"wollten. Als Discord die [Community-Server](https://support.discord.com/hc/"
+"de/articles/360047132851-Enabling-Your-Community-Server) für alle aktiviert "
+"hat, haben sie auch ihre Ankündigungskanäle für alle aktiviert.\n"
+"Daher hat das Kanal-Folgen Modul nicht länger einen Sinn und wird vom Bot "
+"entfernt. Es gibt eine Übergangszeit, in der du vom Kanal-Folgen Modul auf "
+"die Ankündigungskanäle umstellen und deine Kunden über die Änderungen "
+"informieren kannst. \n"
+"Das Kanal-Folgen Modul, welches die Befehle `follow` und `publish` enthält, "
+"wird am **07. November 2020** deaktiviert. An diesem Tag wird auch Discord "
+"die alte Domain *discordapp.com* nicht mehr unterstützen."
+
+#: commands/about.py:64
+msgid "FollowChannel"
+msgstr "Kanal-Folgen"
+
+#: commands/ping.py:11
+msgid ""
+":ping_pong: Pong!\n"
+"Heartbeat: ``{heartbeat}``\n"
+"Reaction Time: ``{reaction_time}``{fault_star}\n"
+"Message Circuit: ``{roundabout}``\n"
+"\n"
+"{fault_text}"
+msgstr ""
+":ping_pong: Pong!\n"
+"Herzschlag: ``{heartbeat}``\n"
+"Reaktionszeit: ``{reaction_time}``{fault_star}\n"
+"Nachrichtenrundgang: ``{roundabout}``\n"
+"\n"
+"{fault_text}"
+
+#: commands/ping.py:23
+msgid "\\**Measurement errors possible*"
+msgstr "\\**Messfehler möglich*"
+
+#: commands/setlang.py:14
+msgid "English"
+msgstr "Englisch"
+
+#: commands/setlang.py:14
+msgid "German"
+msgstr "Deutsch"
+
+#: commands/setlang.py:26
+msgid "Please choose one of the following languages: {0}"
+msgstr "Bitte wähle eine der folgenden Sprachen: {0}"
+
+#: commands/setlang.py:33
+msgid "I set the language to **English**!"
+msgstr "Spracheinstellung zu **Deutsch** geändert!"
+
+#: error.py:36
+msgid ""
+"If you don't think, you made a mistake, please reach out for the Bot-Support "
+"({link})."
+msgstr ""
+"Falls du keinen Fehler gemacht hast, wende dich an den Bot-Support ({link})."
+
+#: error.py:74
+msgid ""
+"Something went terrible wrong while doing this.\n"
+"Please reach out for the Bot-Support (https://supporter.yunamio.de/support-"
+"server)."
+msgstr ""
+"Da ist etwas mächtig schief gelaufen.\n"
+"Bitte wende dich an den Bot-Support (https://supporter.yunamio.de/support-"
+"server)."
+
+#: error.py:85
+msgid ":no_entry: No. I wan't do this for you. But can I do something else?"
+msgstr ":no_entry: Nein. Aber kann ich dir bei etwas anderem helfen?"
+
+#: error.py:87
+msgid ":no_entry: This command has been disabled for security reasons."
+msgstr ":no_entry: Der Befehl wurde aus Sicherheitsgründen deaktiviert."
+
+#: error.py:89
+msgid "This command can only be used in private messages."
+msgstr "Befehl kann nur in Privatnachrichten genutzt werden."
+
+#: error.py:91
+msgid "This command cannot be used in private messages."
+msgstr "Befehl kann nicht in Privatnachrichten genutzt werden."
+
+#: error.py:120
+msgid "I could not find the message `{argument}`."
+msgstr "Ich konnte die Nachricht `{argument}` nicht finden."
+
+#: error.py:121
+msgid "I could not find the member `{argument}`."
+msgstr "Ich konnte das Mitglied `{argument}` nicht finden."
+
+#: error.py:122
+msgid "I could not find the user `{argument}`."
+msgstr "Ich konnte den Nutzer `{argument}` nicht finden."
+
+#: error.py:123
+msgid "I could not find the channel `{argument}`."
+msgstr "Ich konnte den Kanal `{argument}` nicht finden."
+
+#: error.py:124
+msgid "I could not find the role `{argument}`."
+msgstr "Ich konnte die Rolle `{argument}` nicht finden."
+
+#: error.py:125
+msgid "I could not find the emoji `{argument}`."
+msgstr "Ich konnte das Emoji `{argument}` nicht finden."
+
+#: error.py:134
+msgid ":no_entry: Not so fast. Try again in %s second(s)."
+msgstr ":no_entry: Nicht so schnell. Versuch es in %s Sekunden noch einmal."
+
+#: error.py:136
+msgid ":no_entry: You are not allowed to do this."
+msgstr ":no_entry: Das darfst du nicht."
+
+#: error.py:139
+msgid ""
+":question: The Usage of that command is: `{0.prefix}{0.command."
+"qualified_name} {0.command.usage}`"
+msgstr ""
+":question: Die Syntax des Befehls lautet: `{0.prefix}{0.command."
+"qualified_name} {0.command.usage}`"
+
+#: error.py:144
+msgid ""
+"I don't have all permissions to do this!\n"
+"{0.support_server}"
+msgstr ""
+"Dazu habe ich nicht alle Rechte.\n"
+"{0.support_server}"
+
+#: error.py:146
+msgid ""
+"At least one of the resources doesn't exist.\n"
+"{0.support_server}"
+msgstr ""
+"Mindestens eine der Angaben gibt es nicht.\n"
+"{0.support_server}"
+
+msgid "[-f force]"
+msgstr "[-f force]"
+
+msgid "<on/off>"
+msgstr "<on/off>"
+
+msgid "Shows this message"
+msgstr "Zeige diese Nachricht"
+
+msgid "Get informed about upcoming changes from Supporter."
+msgstr "Informiere dich über bevorstehende Änderungen."
+
+msgid "Get information about the bot."
+msgstr "Erhalte Informationen zum Bot."
+
+msgid "If Globalmute is on, the Bot won't listen for commands (except owners)."
+msgstr ""
+
+msgid "Unbans a user permanently from using the Bot."
+msgstr ""
+
+msgid "Make the Bot say something in a Channel."
+msgstr "Lass den Bot etwas in einem Kanal sagen."
+
+msgid "<UserID>"
+msgstr "<NutzerID>"
+
+msgid "<language code>"
+msgstr "<Sprach Code>"
+
+msgid "Get the E-Mail Address of the developer"
+msgstr "E-Mail Adresse des Entwicklerteams"
+
+msgid "[Channel] <Text>"
+msgstr "[Kanal] <Text>"
+
+msgid "<message> <Text>"
+msgstr "<Nachricht> <Text>"
+
+msgid "Shut down the Bot."
+msgstr "Bot herunterfahren."
+
+msgid "Show the Version of the Bot"
+msgstr "Zeige die Version des Bots"
+
+msgid "Measure the latency of the Bot."
+msgstr "Messe die Verzögerung des Bots."
+
+msgid ""
+"Say a text without letting the bot mention user, roles or everyone.\n"
+"You might still mention user, roles or everyone while sending the command."
+msgstr ""
+"Text wiedergeben ohne Nutzer, Rollen oder everyone erwähnen.\n"
+"Erwähnungen können beim Senden trotzdem erfolgen."
+
+msgid "Bans a user permanently from using the Bot."
+msgstr ""
+
+msgid "Edit a message-"
+msgstr "Editiere eine Nachricht"
+
+# SupporterBot Manuell Text.
+# niborus <niborus@yunamio.de>, 2020.
+#
+#: error.py:100
+msgid "You are missing {0} permission to run this command."
+msgid_plural "You are missing {0} permissions to run this command."
+msgstr[0] "Du brauchst dazu die Berechtigung {0}."
+msgstr[1] "Du brauchst dazu die Berechtigungen {0}."
+
+#: error.py:109
+msgid "Bot requires {0} permission to run this command."
+msgid_plural "Bot requires {0} permissions to run this command."
+msgstr[0] "Ich brauchst dazu die Berechtigung {0}."
+msgstr[1] "Ich brauchst dazu die Berechtigungen {0}."
+
+# Permissions for all kinds of places
+msgid "Create Instant Invite"
+msgstr "Einladung erstellen"
+
+msgid "Kick Members"
+msgstr "Mitglieder kicken"
+
+msgid "Ban Members"
+msgstr "Mitglieder bannen"
+
+msgid "Administrator"
+msgstr "Administrator"
+
+msgid "Manage Channels"
+msgstr "Kanäle verwalten"
+
+msgid "Manage Server"
+msgstr "Server verwalten"
+
+msgid "Add Reactions"
+msgstr "Reaktionen hinzufügen"
+
+msgid "View Audit Log"
+msgstr "Audit-Log einsehen"
+
+msgid "Priority Speaker"
+msgstr "Very Important Speaker"
+
+msgid "Stream"
+msgstr "Video"
+
+msgid "Read Messages"
+msgstr "Nachrichten lesen"
+
+msgid "Send Messages"
+msgstr "Nachrichten senden"
+
+msgid "Send Tts Messages"
+msgstr "TTS Nachrichten senden"
+
+msgid "Manage Messages"
+msgstr "Nachrichten verwalten"
+
+msgid "Embed Links"
+msgstr "Links einbetten"
+
+msgid "Attach Files"
+msgstr "Dateien anhängen"
+
+msgid "Read Message History"
+msgstr "Nachrichtenverlauf anzeigen"
+
+msgid "Mention Everyone"
+msgstr "Erwähne @​everyone, @​here und „Alle Rollen“"
+
+msgid "External Emojis"
+msgstr "Externe Emojis verwenden"
+
+msgid "View Server Insights"
+msgstr "Server-Einblicke anzeigen"
+
+msgid "Connect"
+msgstr "Verbinden"
+
+msgid "Speak"
+msgstr "Sprechen"
+
+msgid "Mute Members"
+msgstr "Mitglieder stummschalten"
+
+msgid "Deafen Members"
+msgstr "Ein- und Ausgabe von Mitgliedern deaktivieren"
+
+msgid "Move Members"
+msgstr "Mitglieder verschieben"
+
+msgid "Use Voice Activation"
+msgstr "Sprachaktivierung verwenden"
+
+msgid "Change Nickname"
+msgstr "Nickname ändern"
+
+msgid "Manage Nicknames"
+msgstr "Nicknames verwalten"
+
+msgid "Manage Roles"
+msgstr "Rollen verwalten"
+
+msgid "Manage Webhooks"
+msgstr "WebHooks verwalten"
+
+msgid "Manage Emojis"
+msgstr "Emojis verwalten"
